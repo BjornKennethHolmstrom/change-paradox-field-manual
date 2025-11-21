@@ -494,12 +494,12 @@ Let's build it together.
 ## Appendix: Quick Links
 
 - **Main Repository:** https://github.com/BjornKennethHolmstrom/change-paradox-field-manual
-- **Contribution Guidelines:** `CONTRIBUTING.md` in repo
-- **Templates Folder:** `templates/` in repo
-- **Case Study Template:** `templates/case-study-template.md`
-- **Policy Reframe Template:** `templates/policy-reframe-template.md`
-- **Failure Autopsy Template:** `templates/failure-autopsy-template.md`
-- **Regional Adaptation Template:** `templates/regional-adaptation-template.md`
+- **Contribution Guidelines:** `src/CONTRIBUTING.md` in repo
+- **Templates Folder:** `src/templates/` in repo
+- **Case Study Template:** `src/templates/case-study-template.md`
+- **Policy Reframe Template:** `src/templates/policy-reframe-template.md`
+- **Failure Autopsy Template:** `src/templates/failure-autopsy-template.md`
+- **Regional Adaptation Template:** `src/templates/regional-adaptation-template.md`
 - **Translation Guide:** `TRANSLATION_GUIDE.md` in repo
 - **License (Full Text):** `LICENSE` in repo or https://creativecommons.org/licenses/by-sa/4.0/
 
