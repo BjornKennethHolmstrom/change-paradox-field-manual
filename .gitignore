@@ -1,1 +1,6 @@
 /book
+
+# Ignore the actual files in root (we use symlinks)
+README.md
+LICENSE.md
+CONTRIBUTING.md
