@@ -138,7 +138,7 @@ This manual is licensed under [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 ## 👥 Credits
 
-**Original Author:** Björn Kenneth Holmström
+**Original Synthesizer:** Björn Kenneth Holmström
 
 **AI Analysis Contributors:** Claude (Anthropic), DeepSeek, Grok, Gemini
 
@@ -179,4 +179,8 @@ If this manual helps your work, please star the repo so others can find it!
 ---
 
 **Version 2.2 — November 2025**  
-**Licensed under CC BY-SA 4.0**
+**Licensed under CC BY-SA 4.0**  
+**Originally synthesized by Björn Kenneth Holmström**  
+**Maintained by the community**
+
+*This is a living document. Your contributions make it better.*

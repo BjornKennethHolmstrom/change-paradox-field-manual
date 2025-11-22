@@ -30,7 +30,7 @@ This manual is released under **Creative Commons Attribution-ShareAlike 4.0 Inte
 - Print and sell physical copies (as long as you follow the license)
 
 ✅ **You MUST:**
-- Attribute the original: "Based on *The Change Paradox Field Manual* by Björn Kenneth Holmström"
+- Attribute the original: "Based on *The Change Paradox Field Manual*, originally synthesized by Björn Kenneth Holmström"
 - Share your adaptations under the same license (CC BY-SA 4.0)
 - Indicate if you made changes
 
@@ -500,15 +500,14 @@ Let's build it together.
 - **Policy Reframe Template:** `src/templates/policy-reframe-template.md`
 - **Failure Autopsy Template:** `src/templates/failure-autopsy-template.md`
 - **Regional Adaptation Template:** `src/templates/regional-adaptation-template.md`
-- **Translation Guide:** `TRANSLATION_GUIDE.md` in repo
-- **License (Full Text):** `LICENSE` in repo or https://creativecommons.org/licenses/by-sa/4.0/
+- **License (Full Text):** `src/LICENSE.md` in repo or https://creativecommons.org/licenses/by-sa/4.0/
 
 ---
 
 **Version 2.2 — November 2025**  
 **Licensed under CC BY-SA 4.0**  
-**Original Author: Björn Kenneth Holmström**  
-**Source Repository: github.com/BjornKennethHolmstrom/change-paradox-field-manual**
+**Original Synthesizer: Björn Kenneth Holmström**  
+**Maintained by: The community at github.com/BjornKennethHolmstrom/change-paradox-field-manual**
 
 ---
 
