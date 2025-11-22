@@ -1,0 +1,326 @@
+/* Custom styling for The Change Paradox Field Manual */
+
+/* Root variables for consistent theming */
+:root {
+    --warning-color: #d97706;
+    --success-color: #059669;
+    --danger-color: #dc2626;
+    --info-color: #2563eb;
+    --red-energy-color: #dc2626;
+    --blue-values-color: #1e40af;
+    --orange-values-color: #ea580c;
+    --green-values-color: #059669;
+}
+
+/* Improve readability */
+.content {
+    max-width: 850px;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.content p {
+    margin-bottom: 1.2em;
+}
+
+/* Make headers more distinctive */
+.content h1 {
+    border-bottom: 3px solid var(--info-color);
+    padding-bottom: 0.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+.content h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.3em;
+    margin-top: 1.8em;
+    margin-bottom: 0.8em;
+    font-weight: 600;
+}
+
+.content h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.7em;
+    font-weight: 600;
+    color: var(--info-color);
+}
+
+/* Style checkmarks and X marks for the protocol steps */
+.content h4:has(+ p):first-of-type {
+    margin-top: 1.2em;
+}
+
+/* Make blockquotes stand out (used for important callouts) */
+.content blockquote {
+    border-left: 4px solid var(--info-color);
+    background-color: rgba(37, 99, 235, 0.05);
+    padding: 1em 1.5em;
+    margin: 1.5em 0;
+    font-style: normal;
+}
+
+.content blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+/* Style tables better */
+.content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5em 0;
+    font-size: 0.95em;
+}
+
+.content th {
+    background-color: var(--info-color);
+    color: white;
+    font-weight: 600;
+    padding: 0.75em;
+    text-align: left;
+}
+
+.content td {
+    padding: 0.75em;
+    border: 1px solid #ddd;
+}
+
+.content tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Style code blocks for key terms */
+.content code {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+.content pre {
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Custom boxes for inoculations, warnings, etc. */
+/* Users can wrap content in divs with these classes */
+.inoculation-box {
+    border: 2px solid var(--info-color);
+    background-color: rgba(37, 99, 235, 0.05);
+    padding: 1em;
+    margin: 1.5em 0;
+    border-radius: 6px;
+}
+
+.inoculation-box::before {
+    content: "💉 Inoculation: ";
+    font-weight: 700;
+    color: var(--info-color);
+}
+
+.warning-box {
+    border: 2px solid var(--warning-color);
+    background-color: rgba(217, 119, 6, 0.05);
+    padding: 1em;
+    margin: 1.5em 0;
+    border-radius: 6px;
+}
+
+.warning-box::before {
+    content: "⚠️ Warning: ";
+    font-weight: 700;
+    color: var(--warning-color);
+}
+
+.success-box {
+    border: 2px solid var(--success-color);
+    background-color: rgba(5, 150, 105, 0.05);
+    padding: 1em;
+    margin: 1.5em 0;
+    border-radius: 6px;
+}
+
+.success-box::before {
+    content: "✅ Success Pattern: ";
+    font-weight: 700;
+    color: var(--success-color);
+}
+
+.danger-box {
+    border: 2px solid var(--danger-color);
+    background-color: rgba(220, 38, 38, 0.05);
+    padding: 1em;
+    margin: 1.5em 0;
+    border-radius: 6px;
+}
+
+.danger-box::before {
+    content: "❌ Anti-Pattern: ";
+    font-weight: 700;
+    color: var(--danger-color);
+}
+
+/* Style for developmental stage tags */
+.blue-tag {
+    display: inline-block;
+    background-color: var(--blue-values-color);
+    color: white;
+    padding: 0.2em 0.6em;
+    border-radius: 3px;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-right: 0.3em;
+}
+
+.orange-tag {
+    display: inline-block;
+    background-color: var(--orange-values-color);
+    color: white;
+    padding: 0.2em 0.6em;
+    border-radius: 3px;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-right: 0.3em;
+}
+
+.green-tag {
+    display: inline-block;
+    background-color: var(--green-values-color);
+    color: white;
+    padding: 0.2em 0.6em;
+    border-radius: 3px;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-right: 0.3em;
+}
+
+.red-tag {
+    display: inline-block;
+    background-color: var(--red-energy-color);
+    color: white;
+    padding: 0.2em 0.6em;
+    border-radius: 3px;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-right: 0.3em;
+}
+
+/* Make lists more readable */
+.content ul, .content ol {
+    margin: 1em 0;
+    padding-left: 2em;
+}
+
+.content li {
+    margin-bottom: 0.5em;
+}
+
+/* Style horizontal rules */
+.content hr {
+    border: none;
+    border-top: 2px solid #ddd;
+    margin: 2em 0;
+}
+
+/* Make the facilitator's guide sections stand out */
+.content h2:contains("Facilitator's Guide"),
+.content h3:contains("Facilitator's Guide") {
+    background-color: rgba(5, 150, 105, 0.1);
+    padding: 0.5em;
+    border-left: 4px solid var(--success-color);
+}
+
+/* Print-specific styles */
+@media print {
+    .content {
+        max-width: 100%;
+        font-size: 12pt;
+    }
+    
+    .content h1 {
+        page-break-before: always;
+        margin-top: 0;
+    }
+    
+    .content h1:first-child {
+        page-break-before: avoid;
+    }
+    
+    .content table {
+        page-break-inside: avoid;
+    }
+    
+    .content blockquote {
+        page-break-inside: avoid;
+    }
+}
+
+/* Dark theme adjustments */
+.navy .content th {
+    background-color: #1e3a8a;
+}
+
+.navy .content tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.navy .content code {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navy .content pre {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Improve mobile experience */
+@media (max-width: 768px) {
+    .content {
+        font-size: 16px;
+        padding: 0 1em;
+    }
+    
+    .content table {
+        font-size: 0.85em;
+    }
+    
+    .content th, .content td {
+        padding: 0.5em;
+    }
+}
+
+/* Add a subtle indicator for external links */
+.content a[href^="http"]::after {
+    content: " ↗";
+    font-size: 0.8em;
+    opacity: 0.6;
+}
+
+/* Don't show the indicator for links that are just URLs */
+.content a[href^="http"]:has(code)::after,
+.content a[href^="http"][href*="github.com"]::after {
+    content: "";
+}
+
+/* Style the chapter navigation at bottom */
+.nav-chapters {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 2px solid #ddd;
+}
+
+/* Add visual hierarchy to nested lists */
+.content ul ul {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.content li > ul > li {
+    list-style-type: circle;
+}
+
+.content li > ul > li > ul > li {
+    list-style-type: square;
+}

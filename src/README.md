@@ -12,9 +12,23 @@
 
 **Web version:** [bjornkennethholmstrom.github.io/change-paradox-field-manual](https://bjornkennethholmstrom.github.io/change-paradox-field-manual)
 
-**PDF version:** [Download latest PDF](https://github.com/BjornKennethHolmstrom/change-paradox-field-manual/releases/latest)
+### 📄 Download PDF
 
-**Print version:** See [printing guide](./docs/printing-guide.md)
+**Complete manual (110-120 pages):**
+- [Download v2.2 (PDF)](https://github.com/BjornKennethHolmstrom/change-paradox-field-manual/releases/download/v2.2/change-paradox-field-manual-complete-v2.2.pdf)
+
+**Individual sections:**
+- [Pre-Flight Checklist](https://github.com/BjornKennethHolmstrom/change-paradox-field-manual/releases/download/v2.2/00-pre-flight-checklist.pdf)
+- [Quick Start Guide](https://github.com/BjornKennethHolmstrom/change-paradox-field-manual/releases/download/v2.2/01-quick-start-guide.pdf)
+- [The 7-Step Protocol (Steps 1-2)](https://github.com/BjornKennethHolmstrom/change-paradox-field-manual/releases/download/v2.2/06-protocol-steps-1-2.pdf)
+- [The 7-Step Protocol (Steps 3-4)](https://github.com/BjornKennethHolmstrom/change-paradox-field-manual/releases/download/v2.2/06-protocol-steps-3-4.pdf)
+- [The 7-Step Protocol (Steps 5-7)](https://github.com/BjornKennethHolmstrom/change-paradox-field-manual/releases/download/v2.2/06-protocol-steps-5-6-7.pdf)
+- [The Integral Policy Playbook](https://github.com/BjornKennethHolmstrom/change-paradox-field-manual/releases/download/v2.2/07-policy-playbook.pdf)
+- [Deep-Dive Case Studies](https://github.com/BjornKennethHolmstrom/change-paradox-field-manual/releases/download/v2.2/08-case-studies.pdf)
+- [Anti-Patterns Appendix](https://github.com/BjornKennethHolmstrom/change-paradox-field-manual/releases/download/v2.2/09-anti-patterns.pdf)
+- [All sections →](https://github.com/BjornKennethHolmstrom/change-paradox-field-manual/releases/latest)
+
+**Print version:** Optimized for duplex printing. Print the complete PDF double-sided, bind at a print shop (~$5-10).
 
 ---
 

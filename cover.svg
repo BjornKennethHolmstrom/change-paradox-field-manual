@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210mm" height="297mm" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Background gradient - Yellow/Gold for integral consciousness -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d97706;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b45309;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient for fire -->
+    <linearGradient id="fireGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ea580c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Gradient for water -->
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0284c7;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="210" height="297" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative artwork: Burning shore on left, water on right, bridge in middle -->
+  <g id="artwork" opacity="0.2">
+    <!-- Shore with flames (left side) -->
+    <path d="M 0,150 L 0,297 L 60,297 L 60,150 Z" fill="#78350f" opacity="0.6"/>
+    
+    <!-- Stylized flames -->
+    <path d="M 15,180 Q 20,160 15,140 Q 18,155 25,145 Q 22,160 20,180 Z" fill="url(#fireGradient)"/>
+    <path d="M 35,190 Q 40,170 35,150 Q 38,165 45,155 Q 42,170 40,190 Z" fill="url(#fireGradient)"/>
+    <path d="M 25,200 Q 30,180 25,160 Q 28,175 35,165 Q 32,180 30,200 Z" fill="url(#fireGradient)"/>
+    
+    <!-- Water (right side) - darker blue for contrast -->
+    <path d="M 150,200 L 210,200 L 210,297 L 150,297 Z" fill="#1e40af" opacity="0.4"/>
+    
+    <!-- Waves -->
+    <path d="M 150,210 Q 165,205 180,210 T 210,210" stroke="#1e3a8a" stroke-width="0.5" fill="none" opacity="0.5"/>
+    <path d="M 150,220 Q 165,215 180,220 T 210,220" stroke="#1e3a8a" stroke-width="0.5" fill="none" opacity="0.4"/>
+    <path d="M 150,230 Q 165,225 180,230 T 210,230" stroke="#1e3a8a" stroke-width="0.5" fill="none" opacity="0.3"/>
+    
+    <!-- Bridge/ramp in the middle - darker for visibility -->
+    <path d="M 60,200 Q 105,180 150,200" stroke="#78350f" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M 60,202 Q 105,182 150,202" stroke="#78350f" stroke-width="1" fill="none" opacity="0.4"/>
+    
+    <!-- People crossing the bridge -->
+    <circle cx="75" cy="195" r="1.2" fill="#78350f" opacity="0.7"/>
+    <circle cx="95" cy="188" r="1.2" fill="#78350f" opacity="0.7"/>
+    <circle cx="115" cy="185" r="1.2" fill="#78350f" opacity="0.7"/>
+    <circle cx="135" cy="192" r="1.2" fill="#78350f" opacity="0.7"/>
+  </g>
+  
+  <!-- Main content -->
+  <g id="content" transform="translate(105, 90)">
+    
+    <!-- Title -->
+    <text x="0" y="0" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" letter-spacing="-0.5">
+      The Change Paradox
+    </text>
+    <text x="0" y="20" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700">
+      Field Manual
+    </text>
+    
+    <!-- Divider line -->
+    <rect x="-25" y="28" width="50" height="1.5" fill="white" opacity="0.9"/>
+    
+    <!-- Subtitle -->
+    <text x="0" y="42" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-style="italic" opacity="0.95">
+      An Open-Source Protocol for Building
+    </text>
+    <text x="0" y="50" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-style="italic" opacity="0.95">
+      Transformative Power in Traumatized Communities
+    </text>
+    
+    <!-- Author -->
+    <text x="0" y="65" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="500">
+      Björn Kenneth Holmström
+    </text>
+    
+    <!-- Version -->
+    <text x="0" y="74" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="5.5" opacity="0.9">
+      Version 2.2 — November 2025
+    </text>
+    
+    <!-- Description -->
+    <text x="0" y="88" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="5.5">
+      A 7-step protocol combining nervous system regulation,
+    </text>
+    <text x="0" y="95" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="5.5">
+      integral theory, and on-the-ground organizing tactics.
+    </text>
+    
+    <!-- Tagline -->
+    <text x="0" y="106" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="6.5" font-weight="600" font-style="italic">
+      For movements that actually win.
+    </text>
+    
+  </g>
+  
+  <!-- Footer -->
+  <g id="footer" transform="translate(105, 275)">
+    <text x="0" y="0" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="4" opacity="0.85">
+      Licensed under Creative Commons Attribution-ShareAlike 4.0 International
+    </text>
+    <text x="0" y="6" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="4.5" font-weight="600">
+      CC BY-SA 4.0
+    </text>
+    <text x="0" y="13" text-anchor="middle" fill="white" font-family="Courier New, monospace" font-size="3.5" opacity="0.8">
+      github.com/BjornKennethHolmstrom/change-paradox-field-manual
+    </text>
+  </g>
+  
+</svg>
